@@ -1,0 +1,13 @@
+body{
+    background: url('https://cdn.pixabay.com/photo/2021/05/11/06/22/night-sky-6245049_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+p{
+    padding: 10px;;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}

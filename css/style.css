@@ -20,3 +20,8 @@ ul li{
     color: whitesmoke;
    
 }
+.header{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 3px 4px lightgrey;
+}

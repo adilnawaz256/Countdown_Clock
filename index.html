@@ -10,11 +10,24 @@
    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+  <header>
+      <nav>
+        <ul>
+          <!-- Default checked -->
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input"  id="switch" checked>
+  <label class="custom-control-label change" for="customSwitch1"  >switch to dark mode</label>
+</div>
+        </ul>
+      </nav>
+
+
+  </header>
   <div class="container text-center ">
       <div class="box grid grid-cols-4 gap-3 justify-center content-center m-72" >
         <p class="border border-sky-500 text-center" id="days">
         </p>
-          <p class="border border-sky-500 text-center" id="hours">
+          <p class="border border-blue-500 text-center" id="hours">
           </p>
           <p class="border border-sky-500 text-center" id="minute"></p>
           <p class="border border-sky-500 text-center" id="second"></p>

@@ -35,3 +35,16 @@ let x =setInterval(()=>{
 } , 1000);
 
 
+const dark= document.querySelector('#switch');
+const change = document.querySelector('.change');
+
+dark.addEventListener('click',()=>{
+    document.body.classList.toggle('dark');
+    if(document.body.classList.contains('dark')){
+        change.innerHTML = 'Switch to Light Mode';
+    }
+    else{
+       change.innerHTML = 'Switch to Dark Mode';
+    }
+}
+);
